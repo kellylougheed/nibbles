@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Nibbles: A Binary Game</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1>
+        Nibbles
+      </h1>
+      <h2>
+        A nibble is half a byte!
+      </h2>
+      <p>
+        Turn on the lightbulbs in the appropriate number places to convert the following randomly-generated decimal number (between 0 and 15) to binary.
+      </p>
+      <p id="number">
+        #
+      </p>
+      <div class="row">
+        <div id="lightbulb8" class="item lightbulb">
+          <span class="emoji">💡</span><br/>
+          <span class="place">8s place</span>
+        </div>
+        <div id="lightbulb4" class="item lightbulb">
+          <span class="emoji">💡</span><br/>
+          <span class="place">4s place</span>
+        </div>
+        <div id="lightbulb2" class="item lightbulb">
+          <span class="emoji">💡</span><br/>
+          <span class="place">2s place</span>
+        </div>
+        <div id="lightbulb1" class="item lightbulb">
+          <span class="emoji">💡</span><br/>
+          <span class="place">1s place</span>
+        </div>
+      </div>
+    
+      <button id="button">
+        Check my answer!
+      </button>
+      
+      <button id="new">
+        New number
+      </button>
+
+      <p id="result"></p>
+      
+    </div>
+
+    
+  </body>
+</html>
